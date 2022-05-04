@@ -1,0 +1,48 @@
+body {
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+  background: #febe01;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 4px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+span {
+  color: #febe01;
+  font-size: 20px;
+}
+
+.item {
+  background: #111;
+  color: #bebebe;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 4px;
+}
+
+a {
+  display: inline-block;
+  color: #321;
+  background: #febe01;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.item1 {
+  background: #321;
+  color: #bebe;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 300px;
+  text-align: center;
+}
