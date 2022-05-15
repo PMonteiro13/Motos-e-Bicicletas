@@ -1,2 +1,2 @@
 # Motos-e-Bicicletas
-aprendendo a subir projetos no Github
+Aprendendo subir projetos no GitHub.
