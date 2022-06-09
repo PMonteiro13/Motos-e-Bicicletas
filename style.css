@@ -1,10 +1,51 @@
+:root {
+  --color-primaria: #febe01;
+  --color-primaria1: #321;
+  --color-primaria2: #bebebe;
+}
+
 body {
+  display: grid;
   font-family: Arial;
+  max-width: 1200px;
+}
+
+.inicio a {
+  margin-left: 20px;
+  padding: 8px 16px;
+  font-size: 1.2rem;
+  color:#321;
+  
+}
+
+.titulo {
+  display: grid;
+  place-items: center;
+  
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  padding: 10px;
+}
+
+.item a {
+  width: 180px;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+
+.item1 a {
+  margin-top: 5px;
+padding: 8px 16px;
 }
 
 h1 {
   text-align: center;
-  background: #febe01;
+  background: var(--color-primaria);
   padding: 15px;
   margin: 20px;
   border-radius: 4px;
@@ -15,13 +56,13 @@ h2 {
 }
 
 span {
-  color: #febe01;
+  color: var(--color-primaria);
   font-size: 20px;
 }
 
 .item {
   background: #111;
-  color: #bebebe;
+  color: var(--color-primaria2);
   padding: 15px;
   margin: 20px;
   border-radius: 4px;
@@ -29,20 +70,20 @@ span {
 
 a {
   display: inline-block;
-  color: #321;
-  background: #febe01;
+  color: var(--color-primaria1);
+  background: var(--color-primaria);
   padding: 10px;
   border-radius: 4px;
   text-decoration: none;
 }
 
 .item1 {
-  background: #321;
-  color: #bebe;
+  background: var(--color-primaria1);
+  color: var(--color-primaria2);
   padding: 10px;
   margin: 20px;
   border-radius: 10px;
   font-size: 14px;
-  width: 300px;
+  width: auto;
   text-align: center;
 }
